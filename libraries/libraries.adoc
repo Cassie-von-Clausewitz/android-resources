@@ -1,0 +1,113 @@
+= Libraries
+:toc:
+
+Here are some useful Android libraries broken up by feature.
+
+== Animation
+
+=== Sparkle Motion
+
+https://github.com/IFTTT/SparkleMotion[Source]
+
+== Code Generation
+
+=== AutoValue
+
+AutoValue provides an easier way to create immutable value classes, with a lot less code and less room for error, while not restricting your freedom to code almost any aspect of your class exactly the way you want it.
+
+https://github.com/google/auto/tree/master/value[Source]
+
+=== Retrolambda
+
+Retrolambda lets you run Java 8 code with lambda expressions, method references and try-with-resources statements on Java 7, 6 or 5. It does this by transforming your Java 8 compiled bytecode so that it can run on an older Java runtime. After the transformation they are just a bunch of normal .class files, without any additional runtime dependencies.
+
+https://github.com/orfjackal/retrolambda[Source]
+
+== Dependency Injection
+
+=== Dagger
+
+Dagger is a fully static, compile-time dependency injection framework for both Java and Android. It is an adaptation of an earlier version created by Square and now maintained by Google.
+
+https://google.github.io/dagger/[Homepage]
+
+https://github.com/google/dagger[Source]
+
+== Networking
+
+=== OkHttp
+
+https://square.github.io/okhttp/[Homepage]
+
+https://github.com/square/okhttp[Source]
+
+=== OkIo
+
+Okio is a new library that complements java.io and java.nio to make it much easier to access, store, and process your data.
+
+https://github.com/square/okio[Source]
+
+=== Retrofit
+
+Retrofit turns your HTTP API into a Java interface.
+
+https://square.github.io/retrofit/[Homepage]
+
+https://github.com/square/retrofit[Source]
+
+== UI Testing
+
+=== Espresso
+
+https://google.github.io/android-testing-support-library/docs/espresso/[Documentation]
+
+=== RxEspresso
+
+https://github.com/stablekernel/RxEspresso[Source]
+
+== Unit Testing
+
+=== JUnit
+
+JUnit is a simple framework to write repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
+
+http://junit.org/junit4/[Homepage]
+
+https://github.com/junit-team/junit4[Source]
+
+=== Mockito
+
+Mockito offers simple and intuitive approach to object mocking, you ask questions about interactions after execution.
+
+http://site.mockito.org/[Homepage]
+
+https://github.com/mockito/mockito[Source]
+
+=== Spock
+
+Spock is a testing and specification framework for Java and Groovy applications.
+Spock tests are highly expressive and follow the "Arrange Act Assert" style by default.
+
+IMPORTANT: Spock requires a different setup proceedure on Android than in normal Gradle projects. https://github.com/robospock/RoboSpock[Robospock] can be used to simplify the setup process, and requires the https://github.com/groovy/groovy-android-gradle-plugin[Groovy Android Plugin]
+
+http://spockframework.org/[Homepage]
+
+http://spockframework.org/spock/docs/1.1-rc-3/index.html[Documentation]
+
+https://github.com/spockframework[Source]
+
+=== Truth
+
+Truth is an open source, fluent testing framework for Java that is designed to make your test assertions and failure messages more readable, as well as other benefits. It natively supports many JDK types (e.g., Iterable, String, Map) and Guava types (e.g., Optional, Multimap, Multiset, Table), and is also extensible to new types (YourCustomType).
+
+https://google.github.io/truth/[Homepage]
+
+https://github.com/google/truth[Source]
+
+== View
+
+=== ViewPagerBottomSheet
+
+Use ViewPagers in Bottom Sheets and Bottom Sheet Dialogs!
+
+https://github.com/laenger/ViewPagerBottomSheet[Source]
